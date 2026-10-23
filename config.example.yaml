@@ -1,0 +1,20 @@
+# Copy to config.yaml and adjust.
+chrome:
+  # Windows: C:\Users\<nama>\AppData\Local\Google\Chrome\User Data
+  # macOS:   /Users/<nama>/Library/Application Support/Google/Chrome
+  user_data_dir: "/Users/NAMA/Library/Application Support/Google/Chrome"
+  profile_directory: "Default"   # or "Profile 1", see chrome://version
+
+model: claude-opus-5-5
+output_dir: reports
+
+sheets:
+  daily:
+    url: https://fsgha2c9kqj3.sg.larksuite.com/wiki/USnxw20kDirrrtk4s9Plf26Agle?sheet=TfMPm3
+    link_column: null   # column name holding document links; null = scan every column
+  weekly:
+    url: https://fsgha2c9kqj3.sg.larksuite.com/wiki/T7kvwaoUSifkhqkgdK9lQk9xgcf?sheet=pT1hdv
+    link_column: null
+  monthly:
+    url: https://fsgha2c9kqj3.sg.larksuite.com/wiki/MnfEw5hamiQlNpk2NCBl8ssyg6g?sheet=PBkDia
+    link_column: null
